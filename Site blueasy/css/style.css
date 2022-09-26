@@ -1,0 +1,185 @@
+body{
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    padding: 150px;
+    line-height: 40px;
+    color: white;
+}
+
+.logo{
+    float: left;
+}
+.menu ul a li {
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.menu ul a {
+    text-decoration: none;   
+}
+header {
+   background-color: #49535b;
+   height: 70px;
+   opacity: 73%;
+}
+ul{
+    margin-top: -43px;
+    margin-right: 200px;
+}
+.menu{
+    padding: 3px;
+    line-height: 150px;
+
+}
+.menu h1{
+    color: white;
+    line-height: 28px;
+}
+.menu .input{
+    float: right;
+    display: block;
+}
+.menu h1{
+    margin-left: 200px;
+}
+.menu .input .btn{
+    background-color: none;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.btn-home{
+    background-color: none;
+    color: #4dcaff;
+    border: 2px solid #4dcaff;
+    width: 60px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu .input .btn:active{
+    background-color: none;
+    color: #4dcaff;
+    border: 2px solid #4dcaff;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* Services */
+#services{
+    background-color:#4dcaff;
+    height: 320px;
+    margin-top: -21px;
+}
+.services h2{
+    margin-left: 200px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-weight: bold;
+}
+.services h2::after{
+    content: "___";
+    display: block;
+    margin-top: -80px;
+}
+.services table{
+    margin-left: 200px;
+    color: white;
+}
+.services td p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* contact */
+#contact{
+    margin-top: -20px;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border-color: white;
+    border-style: solid;
+    background: none;
+    box-shadow: none;
+    border-width: 2px;
+}
+.contact{
+    margin-left: 200px;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    color: white;
+    line-height: 90px;
+
+}
+.contact h2::after{
+    content: "___";
+    display: block;
+    margin-top: -80px;
+}
+.contact table{
+    width: 1100px;
+}
+
+.contact td p{
+    margin-top: 35px;
+    color: white;
+}
+
+.contact td{
+    color: white;
+}
+#message{
+    width: 900px;
+    height: 180px;
+    background: none;
+    border-color: white;
+    border-width: 2px;
+}
+.message{
+    color: white;
+}
+.btn-envoyer{
+   margin-top: 20px; 
+   border: none;
+   background-color: #4dcaff;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   width: 250px;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    background-color: #49535b;
+    margin-top: 80px;
+    color: grey;
+}
+
+footer .foot{
+    padding: 10px;
+    margin-right: 440px;
+}
+footer p{
+    margin-top: 50px;
+    margin-left: 190px;
+    font-size: 10px;
+    
+
+}
